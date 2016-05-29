@@ -994,8 +994,8 @@ parentViewController:(UIViewController*)parentViewController
 
     [overlayView addSubview: toolbar];
 
-    UIImage* reticleImage = [self buildReticleImage];
-    UIView* reticleView = [[UIImageView alloc] initWithImage: reticleImage];
+    //UIImage* reticleImage = [self buildReticleImage];
+    UIView* reticleView = [[UIImageView alloc] init];
     CGFloat minAxis = MIN(rootViewHeight, rootViewWidth);
 
     rectArea = CGRectMake(
