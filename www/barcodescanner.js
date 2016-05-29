@@ -123,4 +123,4 @@ BarcodeScanner.prototype.scan = function (successCallback, errorCallback, config
         };
 
         var barcodeScanner = new BarcodeScanner();
-        module.exports = barcodeScanner;
+        module.exports = bfBarcodeScanner;
